@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Problema de Enrutamiento de Vehículos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Problema de Enrutamiento de Vehículos (VRP)</h1>
+        <p class="lead">Portfolio realizado por Víctor Iván Casco Almada</p>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <!-- Sección de Introducción -->
+      <section id="introduccion" class="mb-5">
+        <h2 class="text-primary">Introducción</h2>
+        <p>
+          El Problema de Enrutamiento de Vehículos (VRP, por sus siglas en
+          inglés) es uno de los problemas de optimización combinatoria más
+          estudiados en los campos de la logística y el transporte. Su objetivo
+          principal es determinar las rutas óptimas para una flota de vehículos
+          que deben entregar bienes o servicios a un conjunto de clientes,
+          minimizando costos operativos y cumpliendo diversas restricciones,
+          como capacidades de carga, ventanas de tiempo, y otros requerimientos
+          específicos.
+        </p>
+        <p>
+          En este portfolio, se describen los modelos matemáticos que abordan el
+          VRP, las herramientas de software utilizadas para su resolución, los
+          métodos algorítmicos más destacados, y los avances recientes en esta
+          área. También se presentan aplicaciones prácticas y direcciones
+          futuras para la investigación en este campo.
+        </p>
+      </section>
+
+      <!-- Sección de Modelos Matemáticos -->
+      <section id="modelos" class="mb-5">
+        <h2 class="text-primary">Modelos Matemáticos</h2>
+        <p>
+          Existen diversos enfoques matemáticos para modelar el VRP. A
+          continuación, se describen algunos de los más relevantes:
+        </p>
+        <ul>
+          <li>
+            <strong>Modelos Generalizados:</strong> Permiten integrar múltiples
+            aspectos del problema en un sistema flexible, adecuado para
+            diferentes escenarios de transporte, desde operaciones internas de
+            una planta hasta cadenas de suministro completas.
+          </li>
+          <li>
+            <strong>Modelos Estocásticos:</strong> Incorporan incertidumbres en
+            los tiempos de viaje o servicio, utilizando restricciones de
+            oportunidad y penalidades para garantizar soluciones robustas frente
+            a la variabilidad de los datos.
+          </li>
+          <li>
+            <strong>Modelos de Sincronización:</strong> En estos modelos, los
+            vehículos deben coordinarse para realizar transbordos o intercambios
+            de carga, minimizando costos totales, como combustible y salarios.
+          </li>
+          <li>
+            <strong>Modelos Multi-Escalón:</strong> Utilizan depósitos
+            intermedios (satélites) para optimizar la distribución, mejorando la
+            eficiencia en sistemas con múltiples niveles logísticos.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección de Herramientas de Software -->
+      <section id="software" class="mb-5">
+        <h2 class="text-primary">Herramientas de Software</h2>
+        <p>
+          Varias herramientas y bibliotecas de software han sido desarrolladas
+          para resolver instancias del VRP. Estas son algunas de las más
+          destacadas:
+        </p>
+        <ul>
+          <li>
+            <strong>VRPSolverEasy:</strong> Una biblioteca en Python que ofrece
+            una interfaz sencilla para resolver variantes del VRP sin requerir
+            conocimientos avanzados en programación entera mixta.
+          </li>
+          <li>
+            <strong>PyVRP:</strong> Diseñada para resolver problemas complejos
+            mediante un algoritmo de búsqueda genética híbrida. Es especialmente
+            efectiva para variantes como el VRP con ventanas de tiempo (VRPTW).
+          </li>
+          <li>
+            <strong>VRP Spreadsheet Solver:</strong> Herramienta basada en Excel
+            que permite resolver variantes del VRP con una interfaz accesible.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección de Métodos de Resolución -->
+      <section id="metodos" class="mb-5">
+        <h2 class="text-primary">Métodos de Resolución</h2>
+        <p>
+          Los métodos para resolver el VRP son variados y han evolucionado
+          significativamente a lo largo del tiempo. Algunos de los más
+          relevantes son:
+        </p>
+        <ul>
+          <li>
+            <strong>Métodos Exactos:</strong> Basados en formulaciones
+            matemáticas como la programación lineal entera, estos métodos
+            garantizan la obtención de soluciones óptimas.
+          </li>
+          <li>
+            <strong>Heurísticas:</strong> Proporcionan soluciones de buena
+            calidad en tiempos reducidos, aunque no aseguran la optimalidad.
+          </li>
+          <li>
+            <strong>Metaheurísticas:</strong> Estrategias generales como la
+            búsqueda tabú y los algoritmos genéticos, diseñadas para abordar
+            problemas de gran complejidad.
+          </li>
+          <li>
+            <strong>Algoritmos Híbridos:</strong> Combinan elementos de
+            heurísticas, metaheurísticas y métodos exactos para aprovechar las
+            ventajas de cada uno.
+          </li>
+          <li>
+            <strong>Programación Dinámica:</strong> Enfoque que optimiza rutas
+            considerando múltiples vehículos y restricciones específicas.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección de Conclusión -->
+      <section id="conclusion" class="mb-5">
+        <h2 class="text-primary">Conclusión</h2>
+        <p>
+          El Problema de Enrutamiento de Vehículos continúa siendo un desafío
+          clave en la optimización logística. Las investigaciones y desarrollos
+          en este campo han permitido diseñar herramientas y algoritmos capaces
+          de resolver problemas complejos en escenarios reales, mejorando la
+          eficiencia operativa y reduciendo costos.
+        </p>
+        <p>
+          A medida que surgen nuevas variantes del VRP y la tecnología
+          evoluciona, se espera que la investigación en este campo amplíe sus
+          aplicaciones prácticas, ofreciendo soluciones más personalizadas y
+          adaptativas.
+        </p>
+      </section>
+
+      <!-- Seccion de Referencias-->
+      <section id="referencias" class="mb-5 bg-light p-3">
+        <h2 class="text-primary">Referencias</h2>
+        <ol>
+          <li>
+            A. Agárdi, L. Kovács, y T. Bányai. "Mathematical Model for the
+            Generalized VRP Model." <i>Sustainability</i>, 2022.
+            <a href="https://doi.org/10.3390/su141811639" target="_blank"
+              >https://doi.org/10.3390/su141811639</a
+            >
+          </li>
+          <li>
+            Roberto Baldacci y A. Mingozzi. "A unified exact method for solving
+            different classes of vehicle routing problems."
+            <i>Mathematical Programming</i>, vol. 120, 2009, pp. 347–380.
+            <a href="https://doi.org/10.1007/s10107-008-0218-9" target="_blank"
+              >https://doi.org/10.1007/s10107-008-0218-9</a
+            >
+          </li>
+          <li>
+            Kris Braekers, K. Ramaekers, e I. Nieuwenhuyse. "The vehicle routing
+            problem: State of the art classification and review."
+            <i>Comput. Ind. Eng.</i>, vol. 99, 2016, pp. 300–313.
+            <a href="https://doi.org/10.1016/j.cie.2015.12.007" target="_blank"
+              >https://doi.org/10.1016/j.cie.2015.12.007</a
+            >
+          </li>
+          <li>
+            C. Brandstätter y M. Reimann. "The Line-haul Feeder Vehicle Routing
+            Problem: Mathematical model formulation and heuristic approaches."
+            <i>Eur. J. Oper. Res.</i>, vol. 270, 2018, pp. 157–170.
+            <a href="https://doi.org/10.1016/j.ejor.2018.03.014" target="_blank"
+              >https://doi.org/10.1016/j.ejor.2018.03.014</a
+            >
+          </li>
+          <li>
+            U. Derigs, J. Gottlieb, J. Kalkoff, M. Piesche, F. Rothlauf, y U.
+            Vogel. "Vehicle routing with compartments: applications, modelling
+            and heuristics."
+            <i>OR Spectrum</i>, vol. 33, 2011, pp. 885–914.
+            <a href="https://doi.org/10.1007/s00291-010-0194-3" target="_blank"
+              >https://doi.org/10.1007/s00291-010-0194-3</a
+            >
+          </li>
+          <li>
+            B. Eksioglu, A. Vural, y A. Reisman. "The vehicle routing problem: A
+            taxonomic review."
+            <i>Comput. Ind. Eng.</i>, vol. 57, 2009, pp. 1472–1483.
+            <a href="https://doi.org/10.1016/j.cie.2009.05.009" target="_blank"
+              >https://doi.org/10.1016/j.cie.2009.05.009</a
+            >
+          </li>
+          <li>
+            Güneş Erdoğan. "An open source Spreadsheet Solver for Vehicle
+            Routing Problems."
+            <i>Comput. Oper. Res.</i>, vol. 84, 2017, pp. 62–72.
+            <a href="https://doi.org/10.1016/J.COR.2017.02.022" target="_blank"
+              >https://doi.org/10.1016/J.COR.2017.02.022</a
+            >
+          </li>
+          <li>
+            Najib Errami, E. Queiroga, R. Sadykov, y E. Uchoa. "VRP-SolverEasy:
+            A Python Library for the Exact Solution of a Rich Vehicle Routing
+            Problem."
+            <i>INFORMS Journal on Computing</i>, 2023.
+            <a href="https://doi.org/10.1287/ijoc.2023.0103" target="_blank"
+              >https://doi.org/10.1287/ijoc.2023.0103</a
+            >
+          </li>
+          <li>
+            G. Laporte. "Fifty Years of Vehicle Routing."
+            <i>Transp. Sci.</i>, vol. 43, 2009, pp. 408–416.
+            <a href="https://doi.org/10.1287/trsc.1090.0301" target="_blank"
+              >https://doi.org/10.1287/trsc.1090.0301</a
+            >
+          </li>
+          <li>
+            G. Laporte, F. Louveaux, y H. Mercure. "The Vehicle Routing Problem
+            with Stochastic Travel Times."
+            <i>Transp. Sci.</i>, vol. 26, 1992, pp. 161–170.
+            <a href="https://doi.org/10.1287/TRSC.26.3.161" target="_blank"
+              >https://doi.org/10.1287/TRSC.26.3.161</a
+            >
+          </li>
+          <li>
+            Armin Lüer, M. Benavente, J. Bustos, y B. Venegas. "El Problema de
+            Rutas de Vehículos: Extensiones y Métodos de Resolución, estado del
+            Arte."
+            <i>EIG</i>, 2009.
+          </li>
+          <li>
+            Linda B. Rocha Medina, E. C. González La Rota, y J. A. Orjuela
+            Castro. "Una revisión al estado del arte del problema de ruteo de
+            vehículos: Evolución histórica y métodos de solución."
+            <i>Ingeniería</i>, vol. 16, no. 2, 2011, pp. 35–55.
+          </li>
+          <li>
+            Qiuping Ni y Y. Tang. "A Bibliometric Visualized Analysis and
+            Classification of Vehicle Routing Problem Research."
+            <i>Sustainability</i>, 2023.
+            <a href="https://doi.org/10.3390/su15097394" target="_blank"
+              >https://doi.org/10.3390/su15097394</a
+            >
+          </li>
+          <li>
+            G. Perboli, R. Tadei, y D. Vigo. "The Two-Echelon Capacitated
+            Vehicle Routing Problem: Models and Math-Based Heuristics."
+            <i>Transp. Sci.</i>, vol. 45, 2011, pp. 364–380.
+            <a href="https://doi.org/10.1287/TRSC.1110.0368" target="_blank"
+              >https://doi.org/10.1287/TRSC.1110.0368</a
+            >
+          </li>
+          <li>
+            David Pisinger y S. Røpke. "A general heuristic for vehicle routing
+            problems."
+            <i>Comput. Oper. Res.</i>, vol. 34, 2007, pp. 2403–2435.
+            <a href="https://doi.org/10.1016/j.cor.2005.09.012" target="_blank"
+              >https://doi.org/10.1016/j.cor.2005.09.012</a
+            >
+          </li>
+          <li>
+            Shi-Yi Tan y W. Yeh. "The Vehicle Routing Problem: State-of-the-Art
+            Classification and Review."
+            <i>Applied Sciences</i>, 2021.
+            <a href="https://doi.org/10.3390/app112110295" target="_blank"
+              >https://doi.org/10.3390/app112110295</a
+            >
+          </li>
+          <li>
+            Niels A. Wouda, L. Lan, y W. Kool. "PyVRP: A high-performance VRP
+            solver package."
+            <i>INFORMS Journal on Computing</i>, 2024.
+          </li>
+          <li>
+            Yuxuan Zhang, H. Liu, S.-C. Kang, y M. Al-Hussein. "Virtual reality
+            applications for the built environment: Research trends and
+            opportunities."
+            <i>Automation in Construction</i>, vol. 118, 2020, p. 103311.
+            <a
+              href="https://doi.org/10.1016/j.autcon.2020.103311"
+              target="_blank"
+              >https://doi.org/10.1016/j.autcon.2020.103311</a
+            >
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="bg-primary text-white text-center py-3">
+      <p>
+        &copy; 2024 Víctor Iván Casco Almada. Todos los derechos reservados.
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
